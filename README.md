@@ -1,4 +1,4 @@
-# my-project
+# vue_task_2
 
 ## Project setup
 ```
