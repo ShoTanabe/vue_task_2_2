@@ -15,8 +15,8 @@
 <script>
 
 export default {
-  data: function(){
-    return{
+  data() {
+    return {
       options: ['男性','女性'],
     }
   }
@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style>
-input{
+input {
   width: 4%;
   }
 

@@ -30,30 +30,30 @@
 <script>
 
 export default {
-  data: function(){
-    return{
+  data: function() {
+    return {
       yearOptions: [],
       monthOptions: [],
       dayOptions: [],
     }
   },
-  created(){
+  created() {
     let thisYear = new Date();
     const firstYear = thisYear.getFullYear() - 60;
-    for(let i = 0; i <= 40; i++){
+    for(let i = 0; i <= 40; i++) {
       let westernYear = firstYear + i;
       let japaneseYear = westernYear - 1925;
-      if(westernYear <= 1988){
+      if(westernYear <= 1988) {
       this.yearOptions.push(`${westernYear} （昭和${japaneseYear}）`);
       }
-      else{
+      else {
       this.yearOptions.push(`${firstYear + i} （平成${japaneseYear - 63}）`);
       }
     }
-    for(let m = 1; m <= 12; m++){
+    for(let m = 1; m <= 12; m++) {
       this.monthOptions.push(m);
     }
-    for(let n = 1; n <= 31; n++){
+    for(let n = 1; n <= 31; n++) {
       this.dayOptions.push(n);
     }
   }
