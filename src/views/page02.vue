@@ -20,7 +20,6 @@
 <script>
 import MyHeader from "@/components/my_header";
 import QuestionInsurance from "@/components/question_insurance";
-
 export default {
   components: {
     MyHeader,
@@ -30,18 +29,16 @@ export default {
 </script>
 
 <style lang="scss">
-  .center_box{
+  .center_box {
     width: 270px;
     margin: 0 auto;
-
-    &::after{
+    &::after {
       content: "";
       display: block;
       clear: both;
     }
   }
-
-  .btn_fl{
+  .btn_fl {
     background-color: #04d2b7;
     width: 120px;
     text-align: center;
@@ -50,13 +47,11 @@ export default {
     border-radius: 5px;
     cursor: pointer;
     float: left;
-
-    &:hover{
+    &:hover {
       opacity: 0.8;
     }
   }
-
-  .btn_fr{
+  .btn_fr {
     background-color: #04d2b7;
     width: 120px;
     text-align: center;
@@ -65,8 +60,7 @@ export default {
     border-radius: 5px;
     cursor: pointer;
     float: right;
-
-    &:hover{
+    &:hover {
       opacity: 0.8;
     }
   }

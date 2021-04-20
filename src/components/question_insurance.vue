@@ -45,7 +45,6 @@
 </template>
 
 <script>
-
 export default {
   data() {
     return {
@@ -69,5 +68,4 @@ export default {
 input {
   width: 4%;
   }
-
 </style>

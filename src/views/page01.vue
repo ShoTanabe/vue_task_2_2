@@ -19,7 +19,6 @@
 import MyHeader from "@/components/my_header";
 import QuestionGender from "@/components/question_gender";
 import QuestionBirthday from "@/components/question_birthday";
-
 export default {
   components: {
     MyHeader,
@@ -28,7 +27,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-
-</style>
