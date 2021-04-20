@@ -10,6 +10,7 @@
   background-color: #f3eff1;
   border-bottom: solid 1px #5b585a;
 
+
   &::after {
     content: "";
     display: block;
@@ -130,4 +131,5 @@
     opacity: 0.8;
   }
 }
+
 </style>
